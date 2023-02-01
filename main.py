@@ -2,9 +2,12 @@ def main():
    ##################################################
    # Comlete your code here
    ##################################################
-    original_price = int(200)
+    #original_price = int(200)
+    original_price = int('Enter your price')
+
     
-    rate = int(input('20'))
+    rate = int(input('Enter your rate'))
+   
     discount_amount = original_price * rate / 100
     print(original_price)
     print(discount_amount)
