@@ -4,8 +4,8 @@ def main():
    ##################################################
     original_price = int(200)
     
-    rate = int(0.20)
-    discount_amount = original_price * rate
+    rate = int(input('20'))
+    discount_amount = original_price * rate / 100
     print(original_price)
     print(discount_amount)
     print(original_price - discount_amount)
