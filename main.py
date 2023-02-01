@@ -2,8 +2,6 @@ def main():
    ##################################################
    # Comlete your code here
    ##################################################
-    
-    # original_price = int(original_price)
     original_price = int(200)
     
     rate = int(0.20)
